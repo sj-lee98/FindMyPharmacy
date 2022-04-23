@@ -42,6 +42,9 @@
 		8779FB5B2813C07600264F53 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8779FB5A2813C07600264F53 /* libc++.tbd */; };
 		8779FB5D2813C08200264F53 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8779FB5C2813C08200264F53 /* libxml2.tbd */; };
 		8779FB5F2813C08D00264F53 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8779FB5E2813C08D00264F53 /* libsqlite3.tbd */; };
+		8779FB612813C1C200264F53 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779FB602813C1C200264F53 /* LocationData.swift */; };
+		8779FB642813C24900264F53 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779FB632813C24900264F53 /* KLDocument.swift */; };
+		8779FB662813CE7600264F53 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8779FB652813CE7600264F53 /* DetailListCellData.swift */; };
 		87C995EC2812D846006ED52C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C995EB2812D846006ED52C /* AppDelegate.swift */; };
 		87C995EE2812D846006ED52C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C995ED2812D846006ED52C /* SceneDelegate.swift */; };
 		87C995F02812D846006ED52C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C995EF2812D846006ED52C /* ViewController.swift */; };
@@ -95,6 +98,9 @@
 		8779FB5A2813C07600264F53 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		8779FB5C2813C08200264F53 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		8779FB5E2813C08D00264F53 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8779FB602813C1C200264F53 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		8779FB632813C24900264F53 /* KLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
+		8779FB652813CE7600264F53 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 		87C995E82812D846006ED52C /* FindMyPharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyPharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C995EB2812D846006ED52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87C995ED2812D846006ED52C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,6 +204,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8779FB622813C1D300264F53 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8779FB602813C1C200264F53 /* LocationData.swift */,
+				8779FB652813CE7600264F53 /* DetailListCellData.swift */,
+				8779FB632813C24900264F53 /* KLDocument.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		87C995DF2812D846006ED52C = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +236,7 @@
 			children = (
 				8779FB4E2813BFB700264F53 /* BridgingHeader.h */,
 				87C995EB2812D846006ED52C /* AppDelegate.swift */,
+				8779FB622813C1D300264F53 /* Entities */,
 				87C995ED2812D846006ED52C /* SceneDelegate.swift */,
 				87C995EF2812D846006ED52C /* ViewController.swift */,
 				87C995F12812D846006ED52C /* Main.storyboard */,
@@ -328,8 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8779FB612813C1C200264F53 /* LocationData.swift in Sources */,
+				8779FB642813C24900264F53 /* KLDocument.swift in Sources */,
 				87C995F02812D846006ED52C /* ViewController.swift in Sources */,
 				87C995EC2812D846006ED52C /* AppDelegate.swift in Sources */,
+				8779FB662813CE7600264F53 /* DetailListCellData.swift in Sources */,
 				87C995EE2812D846006ED52C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
